@@ -4,8 +4,12 @@
 body{
 	marign:0;
 	padding:0;
-	background: url(../img/bgImg_1.png) no-repeat center center fixed;
-	background-size: cover;
+}
+.section1{
+	width: 1500px;
+	height: 720px;
+	background: url(../img/bgImg_1.png) no-repeat center bottom;
+	background-size: 1500px 720px;
 }
 nav{
 	width: 100%;
@@ -119,4 +123,18 @@ h1{
 	margin-left: 30px;
 	border: 1px solid rgb(34,173,188);
 	font-weight: 500;
+}
+.section2{
+	width: 1500px;
+	height: 1000px;
+	background: rgb(247,251,253) url(../img/bgImg_2.png) no-repeat center bottom;
+	background-size: 1500px 710px;
+}
+.iconMap{
+	font-size: 2em;
+	color: rgb(255,206,0);
+	margin: 50px auto;
+	padding: 15px 20px;
+	background-color: #fff;
+	border-radius: 50px;
 }
